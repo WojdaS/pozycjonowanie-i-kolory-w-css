@@ -1,0 +1,115 @@
+body {
+    width: 100%;
+    background-color: black;
+}
+
+#conteiner {
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    margin: 30px auto;
+}
+
+.box-s {
+    width: 33%;
+    height: 33%;
+    position: absolute;
+    margin: 1px;
+}
+
+.circle {
+    position: absolute;
+    border: 50px solid;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+.red {
+    background-color: #FE0000;
+    border-color: #FE0000;
+}
+
+.blue {
+    background-color: #0002FB;
+    border-color: #0002FB;
+}
+
+.green {
+    background-color: #008001;
+    border-color: #008001;
+}
+
+.yellow {
+    background-color: #FFFF01;
+    border-color: #FFFF01;
+}
+
+.black {
+    background-color: black;
+    border-color: black;
+}
+
+.orange {
+    background-color: #FEA500;
+    border-color: #FEA500;
+}
+
+.purple {
+    background-color: #81007F;
+    border-color: #81007F;
+}
+
+.grey {
+    background-color: #808080;
+    border-color: #808080;
+}
+
+.pink {
+    background-color: #FFC0CB;
+    border-color: #FFC0CB;
+}
+
+
+.first {
+    top: 0;
+}
+
+.second {
+    left: 33.333333%;
+}
+
+.third {
+    right: 0;
+}
+
+.fourth {
+    top: 33.333333%;
+}
+
+.fifth {
+    top: 33.333333%;
+    left: 33.333333%;
+}
+
+.sixth {
+    top: 33.333333%;
+    right: 0;
+}
+
+.seventh {
+    bottom: 0;
+}
+
+.eighth {
+    bottom: 0;
+    left: 33.333333%;
+}
+
+.ninth {
+    bottom: 0;
+    right: 0;
+}
